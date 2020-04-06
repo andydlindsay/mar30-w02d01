@@ -4,7 +4,8 @@
   "description": "Lecture notes and example code for W2D1 lecture",
   "main": "test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha",
+    "list": "ls -l"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/andydlindsay/mar30-w02d01#readme",
   "devDependencies": {
+    "chai": "^4.2.0",
     "mocha": "^7.1.1"
   }
 }
